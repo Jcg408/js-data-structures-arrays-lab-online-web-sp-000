@@ -10,5 +10,5 @@ function destructivelyAppendDriver() {
  }
 
  function destructivelyRemoveLastDriver() {
-   drivers.pop;
+   drivers.pop();
  }
