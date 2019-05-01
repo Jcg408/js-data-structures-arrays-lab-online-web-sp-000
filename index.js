@@ -21,3 +21,8 @@ function appendDriver() {
   let newDrivers = [...drivers, "Broom"];
   return newDrivers;
 }
+
+function prependDriver() {
+  let newDrivers = ["Arnold", ...drivers];
+  return newDrivers;
+}
