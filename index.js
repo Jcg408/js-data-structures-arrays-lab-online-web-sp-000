@@ -20,4 +20,5 @@ function destructivelyRemoveFirstDriver() {
 function appendDriver() {
   let drivers = ["Milo", "Otis", "Garfield"]
   let newDrivers = [...drivers, "Broom"];
+  return newDrivers;
 }
